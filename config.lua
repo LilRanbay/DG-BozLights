@@ -12,54 +12,16 @@ SmartSirenBeep = false
 
 -- By default, only vehicles in the emergency class will have light/siren control features. Here you can adjust that on a per-car basis.
 -- Non-emergency models with lights/sirens controls.
-ModelsWithEquipment = {
-	"lsiaops1",
-	"lsiaops2",
-	"lsiaops3",
-	"riot3",
-	"sadcrnscout",
-	"sadcrrumpo",
-	"sadcrstanier",
-	"sadcrstank9",
-	"sadcrtorrence",
-	"sadcrtorrslick",
-	"lsiasectorrence",
-	"lsiasecspeedo",
-	"gcstanier",
-	"gcstanier2",
-	"gcscout",
-	"dppdscoutvol",
-	"mcsocara3",
-	"coroner",
-	"coroner2",
-	"rhpdeveron",
-	"sasplguardsq",
-	"lguardsq",
-	"sahpair",
-	"sheriffmav",
-	"polmav",
-	"lspdmav",
-	"lssdsecurity1",
-}
+ModelsWithEquipment = {}
 
-ModelsWithNoEquipment = { -- Non-emergency models without lights/sirens controls
-	"glpdalamo2",
-	"pbus",
-	"sheriffretro",
-	"sheriffretro2",
-	"fibp8",
-	"lguardverus",
-	"fwcverus",
-}
+-- Non-emergency models without lights/sirens controls
+ModelsWithNoEquipment = {}
 
-ModelsWithIdleLights = { -- Turns on extra 12 and disables headlights when pressing set keybind (X by default)
-	"model1",
-	"model2",
-	"model3",
-}
+-- Turns on extra 12 and disables headlights when pressing set keybind (X by default)
+ModelsWithIdleLights = {}
 
-ModelsWithoutSirenParkKill = { -- Disables automaticly turning off sirens when exiting vehicle without any input from user
-}
+-- Disables automaticly turning off sirens when exiting vehicle without any input from user
+ModelsWithoutSirenParkKill = {}
 
 ---------------
 -- BOZLIGHTS --
@@ -81,30 +43,19 @@ ModelsWithoutSirenParkKill = { -- Disables automaticly turning off sirens when e
 
 ]]
 
-ModelsWithBozLights = {
-}
+ModelsWithBozLights = {}
 
-ModelsWithBozLightsLegacy = {
-	"lspd1b",
-	"lspd1c",
-	"lspd4a",
-	"lspd11",
-}
+ModelsWithBozLightsLegacy = {}
 
 -- These models have extralights and sirens in the same spot that should not conflict on light stages two or three. 
 -- All models here must also be in the eModelsWithBozLightsLegacy or eModelsWithBozLights arrays.
-eModelsWithBLCTkdn =
-	{
-	}
+eModelsWithBLCTkdn = {}
 
-eModelsWithAlleyLights = -- pretty evident what this means
-	{
-	}
+-- pretty evident what this means
+eModelsWithAlleyLights = {}
 
-eModelsWithMiniSrn = -- These vehicles only have two light stages (required to also be in eModelsWithBozLights (legacy works too probably?))
-	{
-		"lspd4a",
-	}
+-- These vehicles only have two light stages (required to also be in eModelsWithBozLights (legacy works too probably?))
+eModelsWithMiniSrn = {}
 
 ------------------------------------
 -- VEHICLES WITH SPECIAL FEATURES --
@@ -112,1068 +63,207 @@ eModelsWithMiniSrn = -- These vehicles only have two light stages (required to a
 
 -- Vehicles with no third tone: Useful for california-compliant sirens that only have Wail and Yelp.
 ModelsWithNoTertiaryTone = {
-	"amb_rox_sheriff",
-	"amb_rox_sheriff2",
-	"amb_rox_sheriffb",
-	"amb_rox_swat",
-	"bcfdbat",
-	"bcsonalamo",
-	"bcsospeedo",
-	"centurionlspd",
-	"cfpdalamo2",
-	"cfpdalamok9",
-	"cfpdscout",
-	"dpsstanier",
-	"dpsbuffalo",
-	"cfpdscout2",
-	"cfpdstanier",
-	"cfpdtorrence",
-	"cfpdtorrenceum",
-	"dppd",
-	"dppdk9",
-	"dppdsgt",
-	"dppdunmk",
-	"dppdcara",
-	"dppdcara2",
-	"dppdcaraspare",
-	"dppdscout",
-	"dppdscoutk9",
-	"dppdscoutsgt",
-	"dppdscoutunmk",
-	"dppdscoutvol",
-	"glpdalamo",
-	"glpdalamo2",
-	"glpdbison",
-	"glpdbisonum",
-	"glpdgresley",
-	"glpdgresleyum",
-	"glpdscout",
-	"gtfminivan",
-	"lifeguard",
-	"LSFDGRANGER",
-	"lsiaops1",
-	"lsiaops2",
-	"mrcaalamo",
-	"mrcacara",
-	"police",
-	"policeslick",
-	"police2",
-	"police3",
-	"pscout",
-	"pscoutnew",
-	"poleveron",
-	"polspeedo",
-	"polsadlerk9",
-	"police4",
-	"police42old",
-	"gtfminivan",
-	"centurionlspd",
-	"polthrust",
-	"policeb",
-	"pranger",
-	"riot",
-	"rhpdfug",
-	"rhpdfugumk",
-	"rhpdscout",
-	"rhpdscoutslick",
-	"rhpdscoutk9",
-	"rhpdscoutumk",
-	"rhpdnalamo",
-	"rhpdnalamok9",
-	"rhpdstanier",
-	"rhpdeveron",
-	"sahp",
-	"sahp1a",
-	"sahp1b",
-	"sahp1b2",
-	"sahp1b3",
-	"sahp1c",
-	"sahp1d",
-	"sahp1e",
-	"sahp2",
-	"sahp2a",
-	"sahp2b",
-	"sadcrnscout",
-	"sadcrrumpo",
-	"sadcrstanier",
-	"sadcrstank9",
-	"sadcrtorrence",
-	"sadcrtorrslick",
-	"sheriff",
-	"sheriff2",
-	"sheriffalamo",
-	"sheriffcq4",
-	"sherifffug",
-	"sheriffoss",
-	"sheriffroamer",
-	"sheriffrumpo",
-	"sheriffscout",
-	"sheriffscoutnew",
-	"sheriffstalker",
-	"sheriffthrust",
-	"sheriffslick",
-	"sheriffcont",
-	"sheriffintc",
-	"sheriffscoutold",
-	"sheriffoffroad",
-	"sheriffghost",
-	"sheriffheavy",
-	"sheriffshark",
-	"sheriffboat",
-	"sheriffcoqm3",
-	"sheriffcoqmumk",
-	"lssherbufac",
-	"police2a",
-	"police2c",
-	"police2gs",
-	"policebufac",
-	"lsppalamo",
-	"lsppscout",
-	"lsppscoutk9",
-	"lsppscoutum",
-	"lsppstanier",
-	"lsppstanier2",
-	"lsiascoutII",
-	"lsiastanierk9",
-	"lsiastanier",
-	"lsiastanierumk",
-	"lsiafug",
-	"lsiasectorrence",
-	"lsiasecspeedo",
-	"mcsoalamo",
-	"mcsoalamo2",
-	"mcsoalamo3",
-	"mcsocara",
-	"mcsocara2",
-	"mcsocara3",
-	"mcsoscout",
-	"mcsoscout2",
-	"mcsoscout3",
-	"mcsoscout4",
-	"mcsostalker",
-	"mcsostanier",
-	"mcsostanier2",
-	"mcsotorr",
-	"mcsotorr2",
-	"mcsoyosemite",
-	"mcfdtruck",
-	"mcfdrescue",
-	"mcfdhazmat",
-	"bombsemite",
-	"batstalker",
-	"lspdstalker",
-	"uniems",
-	"unipd",
-	"unipd2",
-	"unipd4",
-	"policefug2",
-	"policefug3",
-	"policeold1",
-	"policeold2",
-	"police2gs",
-	"polnspeedo",
-	"LSFDAmbulance",
-	"coroner",
-	"lspdbuffsumk",
-	"lspdbuffalostxum",
-	"sahp3",
-	"sahp3a",
-	"sahp3b",
-	"sahp4",
-	"sahp5",
-	"sahp5a",
-	"sahp6",
-	"sahp6a",
-	"sahpb",
-	"sahpb2",
-	"sahp4a",
-	"sahp2stx",
-	"sahp2astx",
-	"sahp2bstx",
-	"sahpnalamo",
-	"sahpnalamo2",
-	"ranchopdscout",
-	"prangerheli",
-	"parkbf400",
-	"prangerlrk9",
-	"prangeryok9",
-	"prangeral",
-	"prangereveron",
-	"prangerlr",
-	"prangerme",
-	"prangersct",
-	"prangersd",
-	"prangerstanier",
-	"prangertor",
-	"prangeryo",
-	"prangerbi2",
-	"prangeryo3",
-	"pranger",
-	"prangersm",
-	"parkbjxl",
-	"prangerpred",
-	"prangerpat",
-	"prangeralk9",
-	"prangerstalker",
-	"prangerlr2",
-	"prangerme2",
-	"prangeryo2",
-	"parkstalker",
-	"prangerri",
-	"prangerverus",
-	"lguard",
-	"lguardal",
-	"lguardcont",
-	"lguardeveron",
-	"lguardfc",
-	"lguardri",
-	"lguardyo",
-	"sasplguardbi",
-	"sasplguardev",
-	"sasplguardme",
-	"sasplguardsq",
-	"sasplguardyo",
-	"sasplguardyo2",
-	"lguardsq",
-	"lsdrpalamo",
-	"lsdrpalamo2",
-	"lsdrpalamo3",
-	"lsdrpyosemite",
-	"prangerlrold",
-	"prangersm2",
-	"prangersm3",
-	"prangerstanier2",
-	"saspsteed",
-	"lguardsk",
-	"lguardst",
-	"sasplguardlr",
-	"lspdscout",
-	"lspdscout2",
-	"lspdalamo",
-	"lspdesd",
-	"lspdscoutk9",
-	"lspdscout2k9",
-	"lspdbuff",
-	"lspd1b",
-	"lspd1c",
-	"lspd4a",
-	"lspd11",
-	"senalamo7",
-	"lssdstanier2",
-	"lssdscout4",
-	"emscomet",
-	"emsstalker",
-	"lssdnalamo2",
-	"lspdscoutum2",
-	"bcsoalamo",
-	"bcsoalamo2",
-	"bcsonalamo",
-	"bcsonalamo2",
-	"bcsonalamo3",
-	"bcsonalamok9",
-	"bcsobuffalos2",
-	"bcsocara",
-	"bcsofugitive",
-	"bcsolandstalker",
-	"bcsolandstalker2",
-	"bcsolandstalker3",
-	"bcsoscout",
-	"bcsospeedo",
-	"bcsostanier",
-	"lspdscoutum",
-	"lssdsecurity1",
-	"lssdscout1",
-	"lssdscout2",
-	"lssdscoutnew1",
-	"lssdscoutnew2",
-	"lssdstanier1",
-	"lssdstanier2",
-	"lssdalamonew1",
-	"lssdalamonew2",
-	"lssdumk1",
-	"lssdumk2",
-	"lssdumk3",
-	"lsfd5",
-	"lsfd2",
-	"lsfdcmd",
-	"lsfdstanier",
-	"firehazmat",
-	"firehazmat2",
-	"firerescue",
-	"firetruk2",
-	"firetruk3",
-	"rfdtruck",
-	"lsfdtruck",
+	"police"
 }
 
 -- Vehicles with a 4th tone activated by a seperate button. Usually a Hi-Lo.
 ModelsWithQuarternaryTone = {
-	"bcfdbat",
-	"bcsonalamo",
-	"bcsospeedo",
-	"cfpdalamo2",
-	"cfpdscout",
-	"cfpdscout2",
-	"cfpdtorrence",
-	"crimetaxi",
-	"lcpdh1b",
-	"LCPD2E",
-	"LCPD2F",
-	"LCPD3B",
-	"LCPD4B",
-	"LCPD6A",
-	"lcpd6aadl",
-	"lcpd6aaqn",
-	"lcpd6abahn",
-	"lcpd6abkd",
-	"LCPDT6A",
-	"rhpdfug",
-	"rhpdSCOUTSLICK",
-	"sahp",
-	"sahp1a",
-	"sahp1b",
-	"sahp1b2",
-	"sahp1d",
-	"sahp1e",
-	"sahp2",
-	"sahp2a",
-	"sheriffscoutnew",
-	"mrcaalamo",
-	"gcstanier",
-	"gcstanier2",
-	"gcscout",
-	"mcfdtruck",
-	"mcfdrescue",
-	"mcfdhazmat",
-	"senalamo5",
-	"senalamo6",
-	"sahp3",
-	"sahp3a",
-	"sahp3b",
-	"sahp4",
-	"sahp5",
-	"sahp5a",
-	"sahp6",
-	"sahp6a",
-	"sahpb",
-	"sahpb2",
-	"sahp2stx",
-	"sahp2astx",
-	"sahp2bstx",
-	"sahpnalamo",
-	"sahpnalamo2",
-	"senmesa",
-	"bcsoalamo",
-	"bcsoalamo2",
-	"bcsonalamo",
-	"bcsonalamo2",
-	"bcsonalamo3",
-	"bcsonalamok9",
-	"bcsobuffalos2",
-	"bcsocara",
-	"bcsolandstalker",
-	"bcsolandstalker2",
-	"bcsolandstalker3",
-	"bcsoscout",
-	"bcsospeedo",
-	"bcsostanier",
-	"firerescue",
-	"firetruk2",
-	"firehazmat",
+	"police",
+	"police2",
+	"police3",
+	"police4",
+	"sheriff",
+	"sheriff2",
+	"polcoquette4",
+	"polcaracara",
+	"polgauntlet",
+	"fbi",
+	"fbi2",
+	"blmalamo",
+	"police5",
+	"polterminus",
+	"pranger"
 }
 
 -- Vehicles with dual sirens
 ModelsWithAuxiliaryTone = {
-	"cfpdalamo2",
-	"cfpdscout",
-	"cfpdscout2",
-	"cfpdtorrence",
-	"dppd",
-	"dppdk9",
-	"dppdsgt",
-	"dppdunmk",
-	"dppdscout",
-	"dppdscoutk9",
-	"dppdscoutsgt",
-	"dppdscoutunmk",
-	"police42old",
-	"rhpdfug",
-	"rhpdfugumk",
-	"rhpdscout",
-	"rhpdscoutslick",
-	"rhpdscoutk9",
-	"rhpdscoutumk",
-	"rhpdnalamo",
-	"rhpdnalamok9",
-	"rhpdstanier",
-	"rhpdeveron",
-	"sheriffscout2",
-	"sheriffslick",
-	"sheriffoss",
-	"mcfdtruck",
-	"mcfdrescue",
-	"mcfdhazmat",
-	"emsnspeedo",
-	"ambulance22",
-	"LSFDAmbulance",
-	"emsbisonamb",
-	"ranchopdscout",
-	"amb_rox_ambu",
-	"ambulance",
-	"ambulance2",
-	"lssdumk2",
-	"lsfd5",
-	"lsfd2",
-	"firehazmat",
-	"firehazmat2",
-	"firetruk2",
-	"firetruk3",
-	"rfdtruck",
-	"lsfdtruck",
+	"pranger"
 }
 
 -- Vehicles that use the horn to change tones. Disabled electronic horn. Horn behavior: Regular car horn when lights off, manual tone when lights on, change tone when sirens on.
-ModelsWithHornSwitch = {
-	"police",
-	"policeold",
-	"policeslick",
-	"police2",
-	"police3",
-	"pscout",
-	"pscoutnew",
-	"poleveron",
-	"polalamoold",
-	"polspeedo",
-	"polsadlerk9",
-	"police4",
-	"police42old",
-	"gtfminivan",
-	"centurionlspd",
-	"polriot",
-	"policet",
-	"sahp1b3",
-	"sahp1c",
-	"sahp2b",
-	"sheriffcoqm3",
-	"sheriffcoqmumk",
-	"police2c",
-	"policebufac",
-	"mcsoalamo",
-	"mcsoalamo3",
-	"mcsocara2",
-	"mcsocara3",
-	"mcsoscout",
-	"mcsoscout4",
-	"bombsemite",
-	"polroamer",
-	"policefug2",
-	"policefug3",
-	"polnspeedo",
-	"lspdbuffsumk",
-	"lspdbuffalostxum",
-	"lspdbsq1",
-	"sahp4a",
-	"lspdscout",
-	"lspdscout2",
-	"lspdalamo",
-	"lspdesd",
-	"lspdscoutk9",
-	"lspdscout2k9",
-	"lspdbuff",
-	"lspd1b",
-	"lspd1c",
-	"lspd4a",
-	"lspd11",
-	"lspdscoutum2",
-	"lspdscoutum",
-}
+ModelsWithHornSwitch = {}
 
-ModelsWithRumbler = {
-	"crimetaxi",
-	"dppdscout",
-	"dppdscoutk9",
-	"dppdscoutsgt",
-	"dppdscoutunmk",
-	"lsiaops1",
-	"lsiaops2",
-	"lcpdh1b",
-	"LCPD2E",
-	"LCPD2F",
-	"LCPD3B",
-	"LCPD4B",
-	"LCPD6A",
-	"lcpd6aadl",
-	"lcpd6aaqn",
-	"lcpd6abahn",
-	"lcpd6abkd",
-	"LCPDT6A",
-	"police2",
-	"police4",
-	"sheriffscout2",
-	"sheriffcoqm3",
-	"sheriffcoqmumk",
-	"police2a",
-	"bombsemite",
-	"lspdscoutk9",
-	"lspdscout2k9",
-}
+ModelsWithRumbler = {}
 
 -- Vehicles that have moving parts assigned to bomb bay doors (e.g. highrisers)
-ModelsWithRiser = {
-	"FDLCLADDER",
-	"LCPD4B",
-}
+ModelsWithRiser = {}
 
 ------------------------------------
 -- VEHICLES WITH ALTERNATE SIRENS --
 ------------------------------------
 
-ModelsWithBMWIntegratedSiren = {
-	"polthrust",
-	"sheriffthrust",
-	"sheriffshark",
-	"sheriffboat",
-	"parkbf400",
-}
+ModelsWithBMWIntegratedSiren = {}
 
-ModelsWith480K = {
-	"policeold1",
-	"policeold2",
-	"police2gs",
-	"prangerpat",
-	"sheriffmav",
-	"lssdsecurity1",
-	"lssdumk1",
-	"lssdumk3",
-}
+ModelsWith480K = {}
 
-ModelsWithWhelenCHPSiren = {
-	"sahp",
-	"sahp1a",
-	"sahp1b",
-	"sahp1b2",
-	"sahp1d",
-	"sahp1e",
-	"sahp2",
-	"sahp2a",
-	"sahp3",
-	"sahp3a",
-	"sahp3b",
-	"sahp4",
-	"sahp5",
-	"sahp5a",
-	"sahp6",
-	"sahp6a",
-	"sahp2stx",
-	"sahp2astx",
-	"sahp2bstx",
-}
+ModelsWithWhelenCHPSiren = {}
 
-ModelsWithWhelenCHPMotorSiren = {
-	"sahpb",
-	"sahpb2",
-}
+ModelsWithWhelenCHPMotorSiren = {}
 
-ModelsWithFireSrn = { -- vanilla fire truck siren
-	"FDLCHAZMAT",
-	"FDLCHEAVY",
-	"FDLCLADDER",
-	"FDLCRESCUE",
-	"FDLCTRUCK",
-}
+-- vanilla fire truck siren
+ModelsWithFireSrn = {}
 
-ModelsWithAstroSpectra = {
-	"LSFDGRANGER",
-	"LSFDAmbulance",
-	"lguardsq",
-	"lsfd5",
-	"lsfd2",
-	"lsfdstanier",
-	"lsfdtruck",
-	"lsfdtiller",
-}
+ModelsWithAstroSpectra = {}
 
-ModelsWithMastercomB = {
-	"glpdalamo",
-	"rhpdstanier",
-	"sadcrrumpo",
-	"sadcrstanier",
-	"sadcrstank9",
-	"lsppalamo",
-	"lsppscout",
-	"lsppscoutk9",
-	"lsppstanier",
-	"lspdstalker",
-	"apdstan",
-	"apdscout",
-}
+ModelsWithMastercomB = {}
 
-ModelsWithNergy400 = {
-	"fbi",
-	"fbi2",
-	"senalamo5",
-	"apdscout2",
-	"fwcalamo2",
-}
+ModelsWithNergy400 = {}
 
-ModelsWithOmega90 = {
-	"lsiaops3",
-	"policeold",
-	"polalamoold",
-	"polriot",
-	"lspdb",
-	"policet",
-	"riot",
-	"sheriffalamoold",
-	"sheriffsar",
-	"sheriffvanold",
-	"sheriffmoon",
-	"sherifftrike",
-	"polroamer",
-	"emsroamer",
-	"coroner2",
-	"lspdbsq1",
-	"bcsoalamo3",
-	"bcsoalamo5",
-	"bcsoalamo6",
-	"bcsobuffalos",
-	"bcsogranger",
-	"bcsogranger2",
-	"bcsosadler",
-	"bcsosadler2",
-	"bcsoseminole",
-	"bcsostanier2",
-	"bcsostanier3",
-	"bcsostanierk9",
-	"bcsotrek",
-	"bcsoyosemite",
-}
+ModelsWithOmega90 = {}
 
-ModelsWithFIBSiren = { -- Vanilla FIB Siren
-	"sahp1b3",
-	"sahp1c",
-	"sahp2b",
-	"sahp4a",
-}
+-- Vanilla FIB Siren
+ModelsWithFIBSiren = {}
 
-ModelsWithSS2000 = {
-	"centurionlspd",
-	"cfpdstanier",
-	"cfpdalamok9",
-	"crimetaxi",
-	"LCPD2F",
-	"LCPD4B",
-	"lifeguard",
-	"mcsooutlaw",
-	"unipd",
-	"unipd4",
-	"lspd1c",
-	"lspd4a",
-}
+ModelsWithSS2000 = {}
 
-ModelsWithCencomSapphire = {
-	"bcfdbat",
-	"cfpdtorrenceum",
-	"glpdbisonum",
-	"glpdgresleyum",
-	"mrcacara",
-	"rhpdscoutumk",
-	"mcfdtruck",
-	"mcfdrescue",
-	"mcfdhazmat",
-	"senalamo6",
-	"fibp",
-	"fibp1a",
-	"fibp2",
-	"fibp3",
-	"fibp6",
-	"fibp62",
-	"sahpnalamo",
-	"sahpnalamo2",
-	"dpsstanier",
-	"dpsbuffalo",
-	"prangeralk9",
-	"prangerstalker",
-	"prangerlr2",
-	"prangerme2",
-	"prangeryo2",
-	"parkstalker",
-	"prangerri",
-	"scoutnps",
-	"lguardcont",
-	"lguardeveron",
-	"lguardfc",
-	"lguardri",
-	"lguardyo",
-	"gcscout",
-	"lsdrpalamo",
-	"lsdrpalamo2",
-	"emscomet",
-	"emsstalker",
-	"lsdrpyosemite",
-	"firehazmat",
-	"firehazmat2",
-	"firerescue",
-	"firetruk2",
-	"firetruk3",
-}
+ModelsWithCencomSapphire = {}
 
-ModelsWith295HFS = {
-	"amb_rox_sheriff",
-	"amb_rox_sheriff2",
-	"amb_rox_sheriffb",
-	"amb_rox_swat",
-	"sheriffinsurgent",
-	"riot2",
-	"senalamo",
-	"senalamo2",
-	"senalamo3",
-	"senalamo4",
-	"senstalker",
-	"emsnspeedo",
-	"ambulance22",
-	"emsbisonamb",
-	"fibp",
-	"fibp1a",
-	"fibp7",
-	"amb_rox_ambu",
-	"ambulance2",
-	"ambulance",
-	"rfdtruck",
-}
+ModelsWith295HFS = {}
 
-ModelsWithSSP3000 = {
-	"bcsoalamo",
-	"bcsoalamo2",
-	"bcsonalamo",
-	"bcsonalamo2",
-	"bcsonalamo3",
-	"bcsonalamok9",
-	"bcsobuffalos2",
-	"bcsocara",
-	"bcsofugitive",
-	"bcsolandstalker",
-	"bcsolandstalker2",
-	"bcsolandstalker3",
-	"bcsoscout",
-	"bcsospeedo",
-	"bcsostanier",
-	"dppdcara",
-	"dppdcara2",
-	"dppdcaraspare",
-	"dppdscout",
-	"lspdscoutum",
-	"dppdscoutk9",
-	"dppdscoutsgt",
-	"dppdscoutunmk",
-	"dppdscoutvol",
-	"lcpdh1b",
-	"LCPD2E",
-	"LCPD3B",
-	"LCPD6A",
-	"lcpd6aadl",
-	"lcpd6aaqn",
-	"lcpd6abahn",
-	"lcpd6abkd",
-	"LCPDT6A",
-	"lsiaops1",
-	"lsiaops2",
-	"police3",
-	"pscout",
-	"pscoutnew",
-	"poleveron",
-	"sheriffinsurgent",
-	"sheriffscoutnew",
-	"sheriffstalker",
-	"sheriffghost",
-	"sheriffscout2",
-	"sheriffcoqm3",
-	"sheriffcoqmumk",
-	"mcsoalamo",
-	"mcsoalamo3",
-	"mcsocara2",
-	"mcsocara3",
-	"mcsoscout",
-	"mcsoscout4",
-	"bombsemite",
-	"uniems",
-	"unipd2",
-	"policefug2",
-	"policefug3",
-	"polnspeedo",
-	"coroner",
-	"lspdbuffsumk",
-	"lspdbuffalostxum",
-	"lspdscout",
-	"lspdscout2",
-	"lspdalamo",
-	"lspdesd",
-	"lspdscoutk9",
-	"lspdscout2k9",
-	"lspdbuff",
-	"lspd11",
-	"lsdrpalamo3",
-	"lssdscout4",
-	"lssdnalamo2",
-	"lspdscoutum2",
-	"lssdsecurity1",
-	"lssdscoutnew1",
-	"lssdscoutnew2",
-	"lssdalamonew1",
-	"lssdalamonew2",
-}
+ModelsWithSSP3000 = {}
 
-ModelsWithTouchmaster = {
-	"dppd",
-	"dppdk9",
-	"dppdsgt",
-	"dppdunmk",
-	"lsiastanierk9",
-	"lsiastanier",
-	"lsiastanierumk",
-	"lsiascoutII",
-	"lsiafug",
-	"lsiasectorrence",
-	"lsiasecspeedo",
-	"pranger",
-	"mcsoalamo2",
-	"mcsocara",
-	"mcsoscout2",
-	"mcsoscout3",
-	"mcsostalker",
-	"mcsostanier",
-	"mcsostanier2",
-	"mcsotorr",
-	"mcsotorr2",
-	"mcsoyosemite",
-	"batstalker",
-	"prangerlrk9",
-	"prangeryok9",
-	"prangeral",
-	"prangereveron",
-	"prangerlr",
-	"prangerme",
-	"prangersct",
-	"prangersd",
-	"prangerstanier",
-	"prangertor",
-	"prangeryo",
-	"prangerbi2",
-	"prangeryo3",
-	"pranger",
-	"prangersm",
-	"parkbjxl",
-	"prangerpred",
-	"sasplguardbi",
-	"sasplguardev",
-	"sasplguardme",
-	"sasplguardsq",
-	"sasplguardyo",
-	"sasplguardyo2",
-	"prangerverus",
-	"lguard",
-	"lguardal",
-	"prangerlrold",
-	"prangersm2",
-	"prangersm3",
-	"prangerstanier2",
-	"saspsteed",
-	"lguardsk",
-	"lguardst",
-	"sasplguardlr",
-}
+ModelsWithTouchmaster = {}
 
-ModelsWithZ3 = {
-	"cfpdalamo2",
-	"cfpdscout",
-	"cfpdscout2",
-	"cfpdtorrence",
-	"glpdbison",
-	"glpdgresley",
-	"glpdscout",
-	"mrcaalamo",
-	"rhpdfug",
-	"rhpdfugumk",
-	"rhpdscout",
-	"rhpdscoutslick",
-	"rhpdscoutk9",
-	"rhpdnalamo",
-	"rhpdnalamok9",
-	"rhpdeveron",
-	"sadcrnscout",
-	"sadcrtorrence",
-	"sadcrtorrslick",
-	"lsppscoutum",
-	"policefug",
-	"ranchopdscout",
-	"prangerbi",
-	"prangerbu",
-	"prangercara",
-	"proutlaw",
-	"prangerstalker2",
-	"prangerfc",
-	"senalamo7",
-	"lsfdcmd",
-}
+ModelsWithZ3 = {}
 
-ModelsWithSmartSystemLMS = { -- LASD/LAPD Siren
-	"glpdstanier",
-	"police",
-	"policeslick",
-	"police2",
-	"polspeedo",
-	"polsadlerk9",
-	"police4",
-	"police42old",
-	"gtfminivan",
-	"centurionlspd",
-	"sheriff",
-	"sheriff2",
-	"sheriffalamo",
-	"sheriffcq4",
-	"sherifffug",
-	"sheriffroamer",
-	"sheriffrumpo",
-	"sheriffscout",
-	"sheriffcont",
-	"sheriffintc",
-	"sheriffscoutold",
-	"sheriffoffroad",
-	"sheriffenduro",
-	"sheriffslick",
-	"sheriffoss",
-	"lssherbufac",
-	"police2a",
-	"police2c",
-	"policebufac",
-	"lsppstanier2",
-	"gcstanier",
-	"gcstanier2",
-	"lspd1b",
-	"lssdscout1",
-	"lssdscout2",
-	"lssdstanier1",
-	"lssdstanier2",
-	"lssdumk2",
-}
+-- LASD/LAPD Siren
+ModelsWithSmartSystemLMS = { }
 
-ModelsWith650RemoteSiren = {
-	"sheriffheavy",
-}
+ModelsWith650RemoteSiren = {}
 
-ModelsWithEQ2 = { -- NOT WORKING
+-- NOT WORKING
+ModelsWithEQ2 = {}
 
-}
+ModelsWithScientificPrototypesMk7Siren = {}
 
-ModelsWithScientificPrototypesMk7Siren = {
+ModelsWithPA300Siren = {}
 
-}
+ModelsWithSS2000SS = {}
 
-ModelsWithPA300Siren = {
+ModelsWithPA640 = {}
 
-}
+ModelsWithCencomRed = {}
 
-ModelsWithSS2000SS = {
+ModelsWithTomar940 = {}
 
-}
-
-ModelsWithPA640 = {
-	"apdint",
-	"apdalamo",
-}
-
-ModelsWithCencomRed = {
-	"mcsocenturion",
-	"centurionfib",
-	"centurionlssd",
-	"adspscout",
-	"riot3",
-}
-
-ModelsWithTomar940 = {
-	"senmesa",
-}
-
-AS350Helicopters = {
-	"sahpair",
-	"polmav",
-	"lspdmav",
-}
+AS350Helicopters = {}
 
 -----------------------------------
 -- VEHICLES WITH ALTERNATE TONES --
 ------------------------------------
 
-ModelsWithLAFDSpectraWail = { -- LAFD Wail Tone in LXSRN 1 (Wail). Will only work with vehicles that are also in ModelsWithAstroSpectra list.
-	"LSFDGRANGER",
-	"LSFDAmbulance",
-	"lsfd5",
-	"lsfd2",
-	"lsfdstanier",
-	"lsfdtruck",
-	"lsfdtiller",
+-- LAFD Wail Tone in LXSRN 1 (Wail). Will only work with vehicles that are also in ModelsWithAstroSpectra list.
+ModelsWithLAFDSpectraWail = {}
+
+ModelsWithTimberwolfDualSiren = {}
+
+ModelsWithSAHPHiLo = {}
+
+ModelsWithEQ2DualSiren = {}
+
+ModelsWithQ2DualSiren = { }
+
+BCSOFugitiveModels = {}
+
+-- Requires Z3 Siren
+ModelsWithZ3LowFreqInsteadofHiLo = {}
+
+-- Uses vanilla fire truck horn, does not interrupt main siren
+ModelsWithFireHorn = {}
+
+-- Ultra Hi-Lo tone from Whelen Cencom Carbide in LXSRN 4 (Quarternary/Hilo)
+ModelsWithCencomCarbideUltra = {}
+
+--------------------------
+-- PHOTON 2 SIREN TONES --
+--------------------------
+
+ModelsWithPH2Spectra = {
+	"police"
 }
 
-ModelsWithTimberwolfDualSiren = {
+ModelsWithPH2Epsilon = {
+	"police2",
+	"sheriff2"
 }
 
-
-ModelsWithSAHPHiLo = {
-	"sahpnalamo",
-	"sahpnalamo2",
+ModelsWithPH2Gamma = {
+	"police3"
 }
 
-ModelsWithEQ2DualSiren = {
-	"lsfdambulance",
+ModelsWithPH2295HFSA6 = {
+	"police4",
+	"sheriff"
 }
 
-ModelsWithQ2DualSiren = { 
-	"mcfdtruck",
-	"mcfdhazmat",
-	"firehazmat",
-	"firehazmat2",
-	"firetruk2",
-	"rfdtruck",
-	"firetruk3",
-	"lsfd5",
-	"lsfdtruck",
-	"lsfd2",
-	"lsfdtiller",
+ModelsWithPH2nERGY400 = {
+	"polcoquette4",
+	"polcaracara",
+	"polgauntlet",
+	"pranger"
 }
 
-BCSOFugitiveModels = {
-	"bcsofugitive",
-	"fibp4",
-	"fibp42",
-	"fibp5",
+ModelsWithPH2PFSSP = {
+	"fbi",
+	"fbi2",
+	"blmalamo"
 }
 
-ModelsWithZ3LowFreqInsteadofHiLo = { -- Requires Z3 Siren
-	"rhpdfug",
-	"rhpdscoutslick",
+ModelsWithPH2PFUnitrol = {
+	"police5",
+	"polterminus"
 }
 
-ModelsWithFireHorn = { -- Uses vanilla fire truck horn, does not interrupt main siren
-	"mcfdtruck",
-	"mcfdhazmat",
-	"LSFDAmbulance",
-	"lsfd5",
-	"lsfd2",
-	"firehazmat",
-	"firehazmat2",
-	"firerescue",
-	"firetruk2",
-	"firetruk3",
-	"rfdtruck",
-	"lsfdtruck",
+------------------------
+-- PHOTON 2 ALT TONES --
+------------------------
+
+-- EPSILON
+ModelsWithPH2EpsilonAlt = { -- NOTE: Make sure to add models to ModelsWithPH2Epsilon or certain tones will not work
+	"sheriff2"
 }
 
-ModelsWithCencomCarbideUltra = { -- Ultra Hi-Lo tone from Whelen Cencom Carbide in LXSRN 4 (Quarternary/Hilo)
-	"bcfdbat",
-	"mcfdtruck",
-	"mcfdrescue",
-	"mcfdhazmat",
-	"firerescue",
-	"firetruk2",
-	"firehazmat",
+ModelsWithPH2EpsilonWoopWarb = {
+	"sheriff2"
+}
+
+-- 2295HFSA6
+ModelsWithPH2295HFSA6AIRHORN = {
+	"sheriff"
+}
+
+-- nERGY
+ModelsWithPH2nERGY400Alert = {
+	"polcaracara"
+}
+
+ModelsWithPH2nERGY400PCAL = {
+	"polgauntlet"
+}
+
+ModelsWithPH2nERGY400SUPHILO = {
+	"polcoquette4"
+}
+
+-- PATHFINDER
+ModelsWithPH2PFUnitrolUH = {
+	"polterminus"
+}
+
+ModelsWithPH2PFUnitrolHE = {
+	"polterminus"
+}
+
+ModelsWithPH2PFPCAL = {
+	"fbi2"
 }

@@ -648,6 +648,181 @@ function UseSS2000SS(veh)
 	return false
 end
 
+-------------------------------------
+---------- PHOTON 2 SIRENS ----------
+-------------------------------------
+
+-- Spectra --
+
+function UsePH2Spectra(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2Spectra, 1 do
+		if model == GetHashKey(ModelsWithPH2Spectra[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+-- Epsilon --
+
+function UsePH2Epsilon(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2Epsilon, 1 do
+		if model == GetHashKey(ModelsWithPH2Epsilon[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+function UsePH2EpsilonAlt(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2EpsilonAlt, 1 do
+		if model == GetHashKey(ModelsWithPH2EpsilonAlt[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+function UsePH2EpsilonWoopWarb(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2EpsilonWoopWarb, 1 do
+		if model == GetHashKey(ModelsWithPH2EpsilonWoopWarb[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+-- Gamma --
+
+function UsePH2Gamma(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2Gamma, 1 do
+		if model == GetHashKey(ModelsWithPH2Gamma[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+-- 2295HFSA6 --
+
+function UsePH2295HFSA6(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2295HFSA6, 1 do
+		if model == GetHashKey(ModelsWithPH2295HFSA6[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+function UsePH2295HFSA6AIRHORN(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2295HFSA6AIRHORN, 1 do
+		if model == GetHashKey(ModelsWithPH2295HFSA6AIRHORN[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+-- nERGY400 --
+
+function UsePH2nERGY400(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2nERGY400, 1 do
+		if model == GetHashKey(ModelsWithPH2nERGY400[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+function UsePH2nERGY400Alert(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2nERGY400Alert, 1 do
+		if model == GetHashKey(ModelsWithPH2nERGY400Alert[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+function UsePH2nERGY400PCAL(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2nERGY400PCAL, 1 do
+		if model == GetHashKey(ModelsWithPH2nERGY400PCAL[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+function UsePH2nERGY400SUPHILO(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2nERGY400SUPHILO, 1 do
+		if model == GetHashKey(ModelsWithPH2nERGY400SUPHILO[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+-- PATHFINDER --
+
+function UsePH2PFSSP(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2PFSSP, 1 do
+		if model == GetHashKey(ModelsWithPH2PFSSP[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+function UsePH2PFUnitrol(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2PFUnitrol, 1 do
+		if model == GetHashKey(ModelsWithPH2PFUnitrol[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+function UsePH2PFUnitrolUH(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2PFUnitrolUH, 1 do
+		if model == GetHashKey(ModelsWithPH2PFUnitrolUH[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+function UsePH2PFUnitrolHE(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2PFUnitrolHE, 1 do
+		if model == GetHashKey(ModelsWithPH2PFUnitrolHE[i]) then
+			return true
+		end
+	end
+	return false
+end
+
+function UsePH2PFPCAL(veh)
+	local model = GetEntityModel(veh)
+	for i = 1, #ModelsWithPH2PFPCAL, 1 do
+		if model == GetHashKey(ModelsWithPH2PFPCAL[i]) then
+			return true
+		end
+	end
+	return false
+end
 
 ---------------------------------------------------------------------
 function CleanupSounds()
@@ -786,6 +961,33 @@ function SetLxSirenStateForVeh(veh, newstate)
 					PlaySoundFromEntity(snd_lxsiren[veh], "siren_mastercom_b_wail", veh, "policingmp_sounds_sirens2_soundset", 0, 0)
 				elseif UseSSP3000(veh) then
 					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ssp3000_wail", veh, "policingmp_sounds_sirens1_soundset", 0, 0)
+
+				--------- PHOTON 2 ALT SIRENS ---------
+				
+				elseif UsePH2EpsilonAlt(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_ep_wail_alt", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+
+				---------------------------------------
+
+				------------ PHOTON 2 SIRENS ----------
+
+				elseif UsePH2Spectra(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_spectra_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Epsilon(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_ep_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Gamma(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_gamma_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2295HFSA6(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_295hfsa6_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2PFSSP(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_ssp_wail", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2PFUnitrol(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_unitrol_wail", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2nERGY400(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_nergy400_wail", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+			
+				---------------------------------------
+
 				else
 					PlaySoundFromEntity(snd_lxsiren[veh], "VEHICLES_HORNS_SIREN_1", veh, 0, 0, 0)
 				end
@@ -841,6 +1043,33 @@ function SetLxSirenStateForVeh(veh, newstate)
 					PlaySoundFromEntity(snd_lxsiren[veh], "siren_mastercom_b_yelp", veh, "policingmp_sounds_sirens2_soundset", 0, 0)
 				elseif UseSSP3000(veh) then
 					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ssp3000_yelp", veh, "policingmp_sounds_sirens1_soundset", 0, 0)
+				
+				--------- PHOTON 2 ALT SIRENS ---------
+				
+				elseif UsePH2EpsilonAlt(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_ep_yelp_alt", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+
+				---------------------------------------
+				
+				------------ PHOTON 2 SIRENS ----------
+
+				elseif UsePH2Spectra(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_spectra_yelp", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Epsilon(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_ep_yelp", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Gamma(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_gamma_yelp", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2295HFSA6(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_295hfsa6_yelp", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2PFSSP(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_ssp_yelp", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2PFUnitrol(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_unitrol_yelp", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2nERGY400(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_nergy400_yelp", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+
+				---------------------------------------
+
 				else
 					PlaySoundFromEntity(snd_lxsiren[veh], "VEHICLES_HORNS_SIREN_2", veh, 0, 0, 0)
 				end
@@ -886,6 +1115,35 @@ function SetLxSirenStateForVeh(veh, newstate)
 					PlaySoundFromEntity(snd_lxsiren[veh], "siren_mastercom_b_priority", veh, "policingmp_sounds_sirens2_soundset", 0, 0)
 				elseif UseSSP3000(veh) then
 					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ssp3000_priority", veh, "policingmp_sounds_sirens1_soundset", 0, 0)
+				
+				--------- PHOTON 2 ALT SIRENS ---------
+				
+				elseif UsePH2EpsilonWoopWarb(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_ep_woop", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2nERGY400SUPHILO(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_nergy400_super_hilo", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2PFUnitrolHE(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_unitrol_hetro", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+
+				---------------------------------------
+				
+				------------ PHOTON 2 SIRENS ----------
+
+				elseif UsePH2Epsilon(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_ep_piercer", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Gamma(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_gamma_piercer", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2295HFSA6(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_295hfsa6_piercer", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2PFSSP(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_ssp_priority", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2PFUnitrol(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_unitrol_futura", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2nERGY400(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_nergy400_phaser", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+			
+				---------------------------------------
+
 				else
 					PlaySoundFromEntity(snd_lxsiren[veh], "VEHICLES_HORNS_POLICE_WARNING", veh, 0, 0, 0)
 				end
@@ -922,6 +1180,41 @@ function SetLxSirenStateForVeh(veh, newstate)
 					PlaySoundFromEntity(snd_lxsiren[veh], "siren_spectra_hilo", veh, "policingmp_sounds_sirens2_soundset", 0, 0)
 				elseif UseSSP3000(veh) then
 					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ssp3000_hilo", veh, "policingmp_sounds_sirens1_soundset", 0, 0)
+
+				--------- PHOTON 2 ALT SIRENS ---------
+				
+				elseif UsePH2EpsilonWoopWarb(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_ep_warble", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2nERGY400Alert(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_nergy400_alert", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2nERGY400PCAL(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_nergy400_pcall", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2PFUnitrolUH(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_unitrol_ultrahilo", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2PFPCAL(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_powercall", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+
+				---------------------------------------
+				
+				------------ PHOTON 2 SIRENS ----------
+
+				elseif UsePH2Spectra(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_spectra_hilo", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Epsilon(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_ep_hilo", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Gamma(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_gamma_hilo", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2295HFSA6(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_295hfsa6_hilo", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2PFSSP(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_ssp_hilo", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2PFUnitrol(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_pathfinder_unitrol_hilo", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2nERGY400(veh) then
+					PlaySoundFromEntity(snd_lxsiren[veh], "siren_ph2_nergy400_hilo", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+			
+				---------------------------------------
+
 				else
 					PlaySoundFromEntity(snd_lxsiren[veh], "vehicles_horns_police_warning_rnd_euro", veh, 0, 0, 0)
 				end
@@ -1071,6 +1364,33 @@ function TogPowercallStateForVeh(veh, toggle)
 					else
 						PlaySoundFromEntity(snd_pwrcall[veh], "siren_touchmaster_wail", veh, "policingmp_sounds_sirens3_soundset", 0, 0)
 					end
+				
+				--------- PHOTON 2 ALT SIRENS ---------
+				
+				elseif UsePH2EpsilonAlt(veh) then
+					PlaySoundFromEntity(snd_pwrcall[veh], "siren_ph2_ep_wail_alt", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+
+				---------------------------------------
+				
+				------------ PHOTON 2 SIRENS ----------
+
+				elseif UsePH2Spectra(veh) then
+					PlaySoundFromEntity(snd_pwrcall[veh], "siren_ph2_spectra_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Epsilon(veh) then
+					PlaySoundFromEntity(snd_pwrcall[veh], "siren_ph2_ep_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Gamma(veh) then
+					PlaySoundFromEntity(snd_pwrcall[veh], "siren_ph2_gamma_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2295HFSA6(veh) then
+					PlaySoundFromEntity(snd_pwrcall[veh], "siren_ph2_295hfsa6_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2PFSSP(veh) then
+					PlaySoundFromEntity(snd_pwrcall[veh], "siren_ph2_pathfinder_ssp_wail", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2PFUnitrol(veh) then
+					PlaySoundFromEntity(snd_pwrcall[veh], "siren_ph2_pathfinder_unitrol_wail", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2nERGY400(veh) then
+					PlaySoundFromEntity(snd_pwrcall[veh], "siren_ph2_nergy400_wail_short", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+			
+				---------------------------------------
+
 				else
 					PlaySoundFromEntity(snd_pwrcall[veh], "VEHICLES_HORNS_SIREN_1", veh, 0, 0, 0)
 				end
@@ -1159,6 +1479,33 @@ function SetAirManuStateForVeh(veh, newstate)
 					else
 					PlaySoundFromEntity(snd_airmanu[veh], "siren_ssp3000_horn", veh, "policingmp_sounds_sirens1_soundset", 0, 0)
 					end
+				
+				--------- PHOTON 2 ALT SIRENS ---------
+				
+				elseif UsePH2295HFSA6AIRHORN(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_295hfsa6_airhorn", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+
+				---------------------------------------
+				
+				------------ PHOTON 2 SIRENS ----------
+
+				elseif UsePH2Spectra(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_spectra_horn", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Epsilon(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_ep_horn", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Gamma(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_ep_horn", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2295HFSA6(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_295hfsa6_horn", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2PFSSP(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_pathfinder_ssp_airhorn", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2PFUnitrol(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_pathfinder_unitrol_airhorn", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2nERGY400(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_nergy400_airhorn", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+			
+				---------------------------------------
+
 				else
 					PlaySoundFromEntity(snd_airmanu[veh], "SIRENS_AIRHORN", veh, 0, 0, 0)
 				end
@@ -1218,6 +1565,33 @@ function SetAirManuStateForVeh(veh, newstate)
 					end
 				elseif UseSSP3000(veh) then
 					PlaySoundFromEntity(snd_airmanu[veh], "siren_ssp3000_manual", veh, "policingmp_sounds_sirens1_soundset", 0, 0)
+				
+				--------- PHOTON 2 ALT SIRENS ---------
+				
+				elseif UsePH2EpsilonAlt(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_ep_wail_alt", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+
+				---------------------------------------
+				
+				------------ PHOTON 2 SIRENS ----------
+
+				elseif UsePH2Spectra(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_spectra_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Epsilon(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_ep_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2Gamma(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_gamma_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2295HFSA6(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_295hfsa6_wail", veh, "photon2_sounds_sirens1_soundset", 0, 0)
+				elseif UsePH2PFSSP(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_pathfinder_ssp_wail", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2PFUnitrol(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_pathfinder_unitrol_wail", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+				elseif UsePH2nERGY400(veh) then
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_ph2_nergy400_wail", veh, "photon2_sounds_sirens2_soundset", 0, 0)
+			
+				---------------------------------------
+
 				else
 					PlaySoundFromEntity(snd_airmanu[veh], "siren_police_manual", veh, "policingmp_sounds_sirens5_soundset", 0, 0)
 				end
@@ -1342,6 +1716,11 @@ Citizen.CreateThread(function()
 			RequestScriptAudioBank("DLC_POLICINGMPAUDIO\\POLICINGMP_SIRENS3", false)
 			RequestScriptAudioBank("DLC_POLICINGMPAUDIO\\POLICINGMP_SIRENS4", false)
 			RequestScriptAudioBank("DLC_POLICINGMPAUDIO\\POLICINGMP_SIRENS5", false)
+			RequestScriptAudioBank("DLC_POLICINGMPAUDIO\\POLICINGMP_SIRENS5", false)
+
+			-- PHOTON 2 --
+			RequestScriptAudioBank("DLC_PHOTON2AUDIO\\PH2_SIRENS1", false)
+			RequestScriptAudioBank("DLC_PHOTON2AUDIO\\PH2_SIRENS2", false)
 
 			
 			----- IS IN VEHICLE -----

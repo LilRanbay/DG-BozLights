@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="7126027" />
+ <ContainerPaths>
+  <Item>DLC_PHOTON2AUDIO\PH2_SIRENS1</Item>
+  <Item>DLC_PHOTON2AUDIO\PH2_SIRENS2</Item>
+ </ContainerPaths>
+ <Items>
+  <Item type="SoundSet">
+   <Name>photon2_sounds_sirens1_soundset</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <SoundSets>
+    <Item>
+     <ScriptName>siren_ph2_ep_hilo</ScriptName>
+     <ChildSound>siren_ph2_ep_hilo_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_ep_horn</ScriptName>
+     <ChildSound>siren_ph2_ep_horn_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_ep_piercer</ScriptName>
+     <ChildSound>siren_ph2_ep_piercer_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_ep_wail</ScriptName>
+     <ChildSound>siren_ph2_ep_wail_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_ep_yelp</ScriptName>
+     <ChildSound>siren_ph2_ep_yelp_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_gamma_hilo</ScriptName>
+     <ChildSound>siren_ph2_gamma_hilo_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_gamma_piercer</ScriptName>
+     <ChildSound>siren_ph2_gamma_piercer_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_gamma_wail</ScriptName>
+     <ChildSound>siren_ph2_gamma_wail_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_gamma_yelp</ScriptName>
+     <ChildSound>siren_ph2_gamma_yelp_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_spectra_hilo</ScriptName>
+     <ChildSound>siren_ph2_spectra_hilo_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_spectra_horn</ScriptName>
+     <ChildSound>siren_ph2_spectra_horn_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_spectra_wail</ScriptName>
+     <ChildSound>siren_ph2_spectra_wail_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_spectra_yelp</ScriptName>
+     <ChildSound>siren_ph2_spectra_yelp_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_295hfsa6_airhorn</ScriptName>
+     <ChildSound>siren_ph2_295hfsa6_airhorn_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_295hfsa6_hilo</ScriptName>
+     <ChildSound>siren_ph2_295hfsa6_hilo_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_295hfsa6_horn</ScriptName>
+     <ChildSound>siren_ph2_295hfsa6_horn_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_295hfsa6_piercer</ScriptName>
+     <ChildSound>siren_ph2_295hfsa6_piercer_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_295hfsa6_wail</ScriptName>
+     <ChildSound>siren_ph2_295hfsa6_wail_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_295hfsa6_yelp</ScriptName>
+     <ChildSound>siren_ph2_295hfsa6_yelp_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_ep_wail_alt</ScriptName>
+     <ChildSound>siren_ph2_ep_wail_alt_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_ep_yelp_alt</ScriptName>
+     <ChildSound>siren_ph2_ep_yelp_alt_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_ep_warble</ScriptName>
+     <ChildSound>siren_ph2_ep_warble_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_ep_woop</ScriptName>
+     <ChildSound>siren_ph2_ep_woop_d</ChildSound>
+    </Item>
+   </SoundSets>
+  </Item>
+  <Item type="SoundSet">
+   <Name>photon2_sounds_sirens2_soundset</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <SoundSets>
+    <Item>
+     <ScriptName>siren_ph2_nergy400_airhorn</ScriptName>
+     <ChildSound>siren_ph2_nergy400_airhorn_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_nergy400_alert</ScriptName>
+     <ChildSound>siren_ph2_nergy400_alert_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_nergy400_hilo</ScriptName>
+     <ChildSound>siren_ph2_nergy400_hilo_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_nergy400_pcall</ScriptName>
+     <ChildSound>siren_ph2_nergy400_pcall_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_nergy400_phaser</ScriptName>
+     <ChildSound>siren_ph2_nergy400_phaser_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_nergy400_super_hilo</ScriptName>
+     <ChildSound>siren_ph2_nergy400_super_hilo_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_nergy400_wail</ScriptName>
+     <ChildSound>siren_ph2_nergy400_wail_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_nergy400_wail_short</ScriptName>
+     <ChildSound>siren_ph2_nergy400_wail_short_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_nergy400_yelp</ScriptName>
+     <ChildSound>siren_ph2_nergy400_yelp_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_powercall</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_powercall_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_ssp_airhorn</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_ssp_airhorn_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_ssp_hilo</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_ssp_hilo_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_ssp_priority</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_ssp_priority_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_ssp_wail</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_ssp_wail_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_ssp_yelp</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_ssp_yelp_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_unitrol_airhorn</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_unitrol_airhorn_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_unitrol_futura</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_unitrol_futura_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_unitrol_hetro</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_unitrol_hetro_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_unitrol_hilo</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_unitrol_hilo_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_unitrol_ultrahilo</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_unitrol_ultrahilo_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_unitrol_wail</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_unitrol_wail_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_ph2_pathfinder_unitrol_yelp</ScriptName>
+     <ChildSound>siren_ph2_pathfinder_unitrol_yelp_d</ChildSound>
+    </Item>
+   </SoundSets>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_ep_hilo_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_ep_hilo</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_ep_hilo_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_ep_hilo_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_ep_horn_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_ep_horn</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_ep_horn_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_ep_horn_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_ep_piercer_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_ep_piercer</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_ep_piercer_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_ep_piercer_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_ep_wail_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_ep_wail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_ep_wail_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_ep_wail_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_ep_yelp_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_ep_yelp</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_ep_yelp_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_ep_yelp_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_gamma_hilo_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_gamma_hilo</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_gamma_hilo_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_gamma_hilo_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_gamma_piercer_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_gamma_piercer</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_gamma_piercer_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_gamma_piercer_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_gamma_wail_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_gamma_wail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_gamma_wail_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_gamma_wail_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_gamma_yelp_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_gamma_yelp</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_gamma_yelp_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_gamma_yelp_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_spectra_hilo_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_spectra_hilo</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_spectra_hilo_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_spectra_hilo_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_spectra_horn_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_spectra_horn</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_spectra_horn_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_spectra_horn_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_spectra_wail_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_spectra_wail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_spectra_wail_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_spectra_wail_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_spectra_yelp_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_spectra_yelp</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_spectra_yelp_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_spectra_yelp_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_295hfsa6_airhorn_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_295hfsa6_airhorn</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_295hfsa6_airhorn_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_295hfsa6_airhorn_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_295hfsa6_hilo_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_295hfsa6_hilo</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_295hfsa6_hilo_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_295hfsa6_hilo_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_295hfsa6_horn_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_295hfsa6_horn</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_295hfsa6_horn_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_295hfsa6_horn_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_295hfsa6_piercer_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_295hfsa6_piercer</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_295hfsa6_piercer_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_295hfsa6_piercer_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_295hfsa6_wail_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_295hfsa6_wail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_295hfsa6_wail_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_295hfsa6_wail_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_295hfsa6_yelp_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_295hfsa6_yelp</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_295hfsa6_yelp_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_295hfsa6_yelp_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_ep_wail_alt_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_ep_wail_alt</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_ep_wail_alt_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_ep_wail_alt_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_ep_yelp_alt_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_ep_yelp_alt</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_ep_yelp_alt_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_ep_yelp_alt_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_ep_warble_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_ep_warble</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_ep_warble_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_ep_warble_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_ep_woop_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens1</ContainerName>
+   <FileName>siren_ph2_ep_woop</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_ep_woop_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_ep_woop_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+
+  <Item type="SimpleSound">
+   <Name>siren_ph2_nergy400_airhorn_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_nergy400_airhorn</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_nergy400_airhorn_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_nergy400_airhorn_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_nergy400_alert_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_nergy400_alert</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_nergy400_alert_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_nergy400_alert_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_nergy400_hilo_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_nergy400_hilo</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_nergy400_hilo_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_nergy400_hilo_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_nergy400_pcall_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_nergy400_pcall</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_nergy400_pcall_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_nergy400_pcall_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_nergy400_phaser_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_nergy400_phaser</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_nergy400_phaser_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_nergy400_phaser_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_nergy400_super_hilo_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_nergy400_super_hilo</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_nergy400_super_hilo_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_nergy400_super_hilo_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_nergy400_wail_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_nergy400_wail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_nergy400_wail_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_nergy400_wail_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_nergy400_wail_short_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_nergy400_wail_short</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_nergy400_wail_short_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_nergy400_wail_short_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_nergy400_yelp_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_nergy400_yelp</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_nergy400_yelp_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_nergy400_yelp_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_powercall_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_powercall</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_powercall_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_powercall_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_ssp_airhorn_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_ssp_airhorn</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_ssp_airhorn_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_ssp_airhorn_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_ssp_hilo_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_ssp_hilo</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_ssp_hilo_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_ssp_hilo_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_ssp_priority_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_ssp_priority</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_ssp_priority_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_ssp_priority_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_ssp_wail_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_ssp_wail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_ssp_wail_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_ssp_wail_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_ssp_yelp_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_ssp_yelp</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_ssp_yelp_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_ssp_yelp_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_unitrol_airhorn_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_unitrol_airhorn</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_unitrol_airhorn_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_unitrol_airhorn_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_unitrol_futura_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_unitrol_futura</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_unitrol_futura_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_unitrol_futura_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_unitrol_hetro_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_unitrol_hetro</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_unitrol_hetro_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_unitrol_hetro_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_unitrol_hilo_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_unitrol_hilo</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_unitrol_hilo_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_unitrol_hilo_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_unitrol_ultrahilo_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_unitrol_ultrahilo</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_unitrol_ultrahilo_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_unitrol_ultrahilo_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_unitrol_wail_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_unitrol_wail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_unitrol_wail_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_unitrol_wail_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_ph2_pathfinder_unitrol_yelp_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_photon2audio/ph2_sirens2</ContainerName>
+   <FileName>siren_ph2_pathfinder_unitrol_yelp</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_ph2_pathfinder_unitrol_yelp_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_ph2_pathfinder_unitrol_yelp_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="90" />
+   <PitchAngle value="0" />
+  </Item>
+ </Items>
+</Dat54>

@@ -96,7 +96,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -125,7 +125,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -154,7 +154,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -183,7 +183,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -212,7 +212,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -241,7 +241,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -270,7 +270,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -299,7 +299,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -328,7 +328,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -357,7 +357,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -386,7 +386,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -415,7 +415,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -444,7 +444,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -473,7 +473,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SoundSet">
@@ -970,7 +970,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -999,7 +999,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1028,7 +1028,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1057,7 +1057,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1086,7 +1086,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1115,7 +1115,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1144,7 +1144,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1173,7 +1173,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1202,7 +1202,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1231,7 +1231,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1260,7 +1260,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1289,7 +1289,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1318,7 +1318,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1347,7 +1347,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1376,7 +1376,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1405,7 +1405,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1434,7 +1434,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1463,7 +1463,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1492,7 +1492,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1521,7 +1521,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1550,7 +1550,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1579,7 +1579,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1608,7 +1608,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1637,7 +1637,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1666,7 +1666,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1695,7 +1695,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1724,7 +1724,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1753,7 +1753,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1782,7 +1782,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1811,7 +1811,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1840,7 +1840,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1869,7 +1869,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1898,7 +1898,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1927,7 +1927,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1956,7 +1956,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -1985,7 +1985,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2014,7 +2014,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2043,7 +2043,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2072,7 +2072,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2101,7 +2101,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2130,7 +2130,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2159,7 +2159,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2188,7 +2188,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2217,7 +2217,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2246,7 +2246,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2275,7 +2275,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2304,7 +2304,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2333,7 +2333,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2362,7 +2362,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2391,7 +2391,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2420,7 +2420,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2449,7 +2449,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2478,7 +2478,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2507,7 +2507,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2536,7 +2536,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2565,7 +2565,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2594,7 +2594,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2623,7 +2623,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2652,7 +2652,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2681,7 +2681,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2710,7 +2710,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2739,7 +2739,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2768,7 +2768,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2797,7 +2797,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2826,7 +2826,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2855,7 +2855,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2884,7 +2884,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2913,7 +2913,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2942,7 +2942,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -2971,7 +2971,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3000,7 +3000,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3029,7 +3029,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3058,7 +3058,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3087,7 +3087,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3116,7 +3116,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3145,7 +3145,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3174,7 +3174,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3203,7 +3203,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3232,7 +3232,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3261,7 +3261,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3290,7 +3290,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3319,7 +3319,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3348,7 +3348,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3377,7 +3377,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3406,7 +3406,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3435,7 +3435,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3464,7 +3464,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3493,7 +3493,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
 
@@ -3523,7 +3523,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
 
@@ -3553,7 +3553,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3582,7 +3582,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3611,7 +3611,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3640,7 +3640,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3669,7 +3669,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3698,7 +3698,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3727,7 +3727,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3756,7 +3756,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3785,7 +3785,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3814,7 +3814,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3843,7 +3843,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3872,7 +3872,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3901,7 +3901,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3930,7 +3930,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3959,7 +3959,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -3988,7 +3988,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -4017,7 +4017,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
   <Item type="SimpleSound">
@@ -4046,7 +4046,7 @@
    <InnerAngle value="20" />
    <OuterAngle value="65" />
    <RearAttenuation value="-3" />
-   <YawAngle value="0" />
+   <YawAngle value="90" />
    <PitchAngle value="0" />
   </Item>
  </Items>
